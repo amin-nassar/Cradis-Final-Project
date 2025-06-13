@@ -1,0 +1,888 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+@import "variables-light.css";
+
+/* Font Family for Intire Page */
+body {
+  font-family: "Inter";
+}
+
+/* Page Container */
+.page-container {
+  background-color: #f8f7fb;
+  border-radius: 32px;
+  padding: 40px 28px;
+}
+
+/* All Sections Shadow */
+.section.shadow-sm {
+  box-shadow: 0px 2px 4px #d1d1d4 !important;
+}
+
+/* All Sections Style */
+.section {
+  padding: 24px 24px;
+  margin-bottom: 24px;
+  border-width: 0px;
+  border-radius: 12px !important;
+  border-color: #ececed;
+  background-color: #ffffff !important;
+}
+
+/* All Sections Title Style */
+.section-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 24px;
+  color: #3f404d;
+}
+
+/* All Avatars Border Radius */
+.avatar {
+  border-radius: 999px;
+}
+
+/* ////////////////////////////   Meeting Section Style Start Here   ////////////////////////////  */
+
+/* Avatar Small Style */
+.avatar-small {
+  height: 24px;
+  margin-right: -4px;
+}
+
+/* Meeting Card Style */
+.meeting-card {
+  padding: 24px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+/* Meeting Card Title Style */
+.meeting-card .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+/* Meeting Card Time Style  */
+.meeting-card .time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+}
+
+/* Meeting Card Primary Style */
+.meeting-card.primary {
+  background-color: #f2edff;
+  border-left: 5px solid #916dff !important;
+}
+
+/* Meeting Card Primary Title Style */
+.meeting-card.primary .title {
+  color: #6741d9;
+}
+
+/* Meeting Card Primary Time Style */
+.meeting-card.primary .time {
+  color: #ab8fff;
+}
+
+/* Meeting Card Primary Avatar Style */
+.meeting-card.primary .avatar {
+  border: 2px solid #f2edff;
+}
+
+/* Meeting Card Secondary Style  */
+.meeting-card.secondary {
+  background-color: #e6faed;
+  border-left: 5px solid #2ed46b !important;
+}
+
+/* Meeting Card Secondary Title Style */
+.meeting-card.secondary .title {
+  color: #00ac40;
+}
+
+/* Meeting Card Secondary Title Style */
+.meeting-card.secondary .time {
+  color: #5ede8e;
+}
+
+/* Meeting Card Secondary Avatar Style */
+.meeting-card.secondary .avatar {
+  border: 2px solid #e6faed;
+}
+
+/* Meeting Card Tertiary Style  */
+.meeting-card.tertiary {
+  background-color: #fee9e9;
+  border-left: 5px solid #f54e4e !important;
+  margin-bottom: 0px;
+}
+
+/* Meeting Card Tertiary Title Style */
+.meeting-card.tertiary .title {
+  color: #f32727;
+}
+
+/* Meeting Card Tertiary Time Style */
+.meeting-card.tertiary .time {
+  color: #f77777;
+}
+
+/* Meeting Card Tertiary Avatar Style */
+.meeting-card.tertiary .avatar {
+  border: 2px solid #fee9e9;
+}
+
+/* ////////////////////////////   Apps Notifications Section Style Start Here   ////////////////////////////  */
+
+/* App Notification List style */
+.apps-notifications .list {
+  margin-bottom: 24px;
+}
+
+/* App Notification Image Style */
+.apps-notifications img {
+  margin-right: 12px;
+}
+
+/* App Notification Title Style */
+.apps-notifications .title {
+  color: #3f404d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* Don't Touch */
+.form-check-input {
+  margin-top: 0px;
+}
+
+/* Don't Touch */
+.form-switch .form-check-input {
+  --bs-form-switch-bg: none;
+  background-image: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Don't Touch */
+.form-check-input:focus,
+.form-check-input:active {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+/* App Notification Toggle Style */
+.form-switch .form-check-input {
+  width: 38px !important;
+  height: 22px !important;
+  border-radius: 2rem;
+}
+
+/* App Notification Toggle Unchecked Style */
+.form-switch .form-check-input {
+  background-color: #acadb2;
+  border-color: #acadb2;
+}
+
+/* App Notification Toggle Unchecked Circle Style */
+.form-switch .form-check-input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* App Notification Toggle Checked Style */
+.form-switch .form-check-input:checked {
+  background-color: #794dff;
+  border-color: #794dff;
+}
+
+/* App Notification Toggle Checked Circle Style */
+.form-switch .form-check-input:checked::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -6px;
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  transform: translateX(1.5rem);
+}
+
+/* Don't Touch */
+.form-check-input:checked:focus::before,
+.form-check-input:checked:active::before {
+  position: absolute;
+  top: 3px;
+  left: -5px;
+}
+
+/* Don't Touch */
+.form-check-input:focus::before,
+.form-check-input:active::before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+/* ////////////////////////////   Header Section Style Start Here   ////////////////////////////  */
+
+/* Avatar Large Style */
+.avatar-large {
+  height: 80px;
+}
+
+/* Header Section Avatar Margin Bottom */
+.header .avatar {
+  margin-bottom: 8px;
+}
+
+/* Header Section Name Style */
+.header .name {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #3f404d;
+  margin-bottom: 4px;
+}
+
+/* Header Section Role Style */
+.header .role {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #86878f;
+}
+
+/* Header Section Title Style  */
+.header .title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3f404d;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+/* ////////////////////////////   Navbar Section Style Start Here   ////////////////////////////  */
+
+/* Navbar Section Style */
+.section.navbar {
+  padding: 16px 24px;
+}
+
+/* Navbar Section Logo Name Style */
+.logo-name {
+  color: #3f404d;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+/* Navbar Section Logo Icon Style */
+.navbar .logo-icon {
+  background-color: #916dff;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+/* Navbar Section Link Default Style */
+.nav-item .nav-link {
+  color: #3f404d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: transparent;
+  padding: 12px 16px !important;
+  border-radius: 4px;
+}
+
+/* Navbar Section Link Hover Style */
+.nav-item .nav-link:hover {
+  background-color: #dedde0;
+}
+
+/* Navbar Sections Links Gap */
+.navbar-nav {
+  gap: 8px;
+}
+
+/* Navbar Section Link Icon Style */
+.nav-item i {
+  font-size: 12px;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+}
+
+/* Don't Touch */
+.nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+/* ////////////////////////////   Select Price Item Section Style Start Here   ////////////////////////////  */
+
+/* Select Section Style */
+.section.select {
+  margin-bottom: 0px;
+  padding: 24px 24px;
+  border: 2px solid #916dff;
+}
+
+/* Select Section Title Style */
+.select .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3f404d;
+  margin-bottom: 12px;
+}
+
+/* Select Section Description style */
+.select .desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #86878f;
+}
+
+/* Select Section Price Style */
+.select .price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3f404d;
+}
+
+/* Select Section Content Style */
+.select .content {
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Select Section Radio Buton Style */
+.form-check-input:checked {
+  background-color: #794dff;
+  border-color: #794dff;
+}
+
+/* ////////////////////////////   Tabs Section Style Start Here   ////////////////////////////  */
+
+/* Tabs Section Style */
+.nav-tabs {
+  background-color: #cecbdc;
+  padding: 4px 4px;
+  border-radius: 8px;
+  --bs-nav-tabs-border-width: initial;
+  border: none;
+}
+
+/* Tab Section Link Default Style */
+.nav-tabs .nav-link {
+  background-color: #cecbdc;
+  color: #3f404d;
+  padding: 8px 12px !important;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Tab Section Link Hover Style */
+.nav-tabs .nav-link:hover {
+  background-color: #cecbdc;
+  color: #794dff;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Tab Section Link Active Style */
+.nav-tabs .nav-link.active {
+  background-color: #794dff;
+  color: #f2edff;
+  border-radius: 4px;
+  border: none;
+}
+
+/* ////////////////////////////   Input Field Section Style Start Here   ////////////////////////////  */
+
+/* Input Field Default Style */
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #acadb2;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #916dff !important;
+}
+
+/* Input Field Default Placeholder Style */
+.form-control::placeholder {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #acadb2 !important;
+}
+
+/* Input Field Hover Style */
+.form-control:hover {
+  background-color: #ffffff;
+  border-color: #86878f;
+}
+
+/* Input Field Hover Placeholder Style */
+.form-control:hover::placeholder {
+  border-color: #86878f;
+  color: #86878f !important;
+}
+
+/* Input Field Focus Style */
+.form-control:focus {
+  background-color: #ffffff;
+  border-color: #916dff;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Input Field Focus Placeholder Style */
+.form-control:focus::placeholder {
+  border-color: #916dff;
+  color: #916dff !important;
+}
+
+/* ////////////////////////////   Buttons Section Style Start Here   ////////////////////////////  */
+
+/* Buttons Style */
+.btn {
+  border-radius: 16px;
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+/* Buttons Primary Default Style */
+.btn-primary {
+  background-color: #916dff;
+  color: #f2edff;
+}
+
+/* Buttons Primary Hover Style */
+.btn-primary:hover {
+  background-color: #794dff;
+  color: #f2edff;
+}
+
+/* Buttons Primary Focused Style */
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #6741d9;
+  color: #f2edff;
+}
+
+/* Buttons Secondary Default Style */
+.btn-secondary {
+  background-color: #8f8b96;
+  color: #f1f1f2;
+}
+
+/* Buttons Secondary Hover Style */
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #76717f;
+  color: #f1f1f2;
+}
+
+/* Buttons Secondary Focused Style */
+.btn-secondary:focus {
+  background-color: #64606c;
+  color: #f1f1f2;
+}
+
+/* ////////////////////////////   Pagination Section Style Start Here   ////////////////////////////  */
+
+/* Pagination Section Style */
+.pagination {
+  gap: 4px;
+}
+
+/* Pagination Section Link Default Style */
+.pagination .page-item .page-link {
+  border-radius: 8px;
+  background-color: #cecbdc;
+  color: #3f404d;
+  padding: 12px 12px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+/* Pagination Section Link Hover Style */
+.pagination .page-item .page-link:hover {
+  background-color: #b9b6c7;
+  color: #3f404d;
+}
+
+/* Pagination Section Link Active Style */
+.pagination .page-item.active .page-link {
+  background-color: #dfd4ff;
+  color: #916dff;
+}
+
+/* ////////////////////////////   Color Palette Section Style Start Here   ////////////////////////////  */
+
+/* Palette Section Style */
+.palette .padding-short {
+  margin-bottom: 16px;
+}
+
+/* Palette Section Item Style */
+.palette .item {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 16px 12px;
+}
+
+/* Palette Section Item Primary 100 Style */
+.palette .item.primary-100 {
+  background-color: #f2edff;
+  color: #362373;
+}
+
+/* Palette Section Item Primary 200 Style */
+.palette .item.primary-200 {
+  background-color: #dfd4ff;
+  color: #362373;
+}
+
+/* Palette Section Item Primary 300 Style */
+.palette .item.primary-300 {
+  background-color: #c5b2ff;
+  color: #362373;
+}
+
+/* Palette Section Item Primary 400 Style */
+.palette .item.primary-400 {
+  background-color: #ab8fff;
+  color: #362373;
+}
+
+/* Palette Section Item Primary 500 Style */
+.palette .item.primary-500 {
+  background-color: #916dff;
+  color: #f2edff;
+}
+
+/* Palette Section Item Primary 600 Style */
+.palette .item.primary-600 {
+  background-color: #794dff;
+  color: #f2edff;
+}
+
+/* Palette Section Item Primary 700 Style */
+.palette .item.primary-700 {
+  background-color: #6741d9;
+  color: #f2edff;
+}
+
+/* Palette Section Item Primary 800 Style */
+.palette .item.primary-800 {
+  background-color: #5637b5;
+  color: #f2edff;
+}
+
+/* Palette Section Item Primary 900 Style */
+.palette .item.primary-900 {
+  background-color: #452c91;
+  color: #f2edff;
+}
+
+/* Palette Section Item Primary 1000 Style */
+.palette .item.primary-1000 {
+  background-color: #362373;
+  color: #f2edff;
+}
+
+/* Palette Section Item Secondary 100 Style */
+.palette .item.secondary-100 {
+  background-color: #f1f1f2;
+  color: #353339;
+}
+
+/* Palette Section Item Secondary 200 Style */
+.palette .item.secondary-200 {
+  background-color: #dedde0;
+  color: #353339;
+}
+
+/* Palette Section Item Secondary 300 Style */
+.palette .item.secondary-300 {
+  background-color: #c4c2c8;
+  color: #353339;
+}
+
+/* Palette Section Item Secondary 400 Style */
+.palette .item.secondary-400 {
+  background-color: #a9a6ae;
+  color: #353339;
+}
+
+/* Palette Section Item Secondary 500 Style */
+.palette .item.secondary-500 {
+  background-color: #8f8b96;
+  color: #f1f1f2;
+}
+
+/* Palette Section Item Secondary 600 Style */
+.palette .item.secondary-600 {
+  background-color: #76717f;
+  color: #f1f1f2;
+}
+
+/* Palette Section Item Secondary 700 Style */
+.palette .item.secondary-700 {
+  background-color: #64606c;
+  color: #f1f1f2;
+}
+
+/* Palette Section Item Secondary 800 Style */
+.palette .item.secondary-800 {
+  background-color: #54505a;
+  color: #f1f1f2;
+}
+
+/* Palette Section Item Secondary 900 Style */
+.palette .item.secondary-900 {
+  background-color: #434048;
+  color: #f1f1f2;
+}
+
+/* Palette Section Item Secondary 1000 Style */
+.palette .item.secondary-1000 {
+  background-color: #353339;
+  color: #f1f1f2;
+}
+
+/* ////////////////////////////   Footer Section Style Start Here   ////////////////////////////  */
+
+/* Footer Section Links Default style */
+.footer .link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #86878f;
+  padding: 8px 12px;
+}
+
+/* Footer Section Links Hover style */
+.footer .link:hover {
+  color: #3f404d;
+}
+
+/* ////////////////////////////   Alerts Section Style Start Here   ////////////////////////////  */
+
+/* Alert Section Card Style */
+.alert {
+  padding: 20px 20px;
+  border-radius: 16px;
+  border-width: 2px;
+}
+
+/* Alert Section Card Icon Style */
+.icon {
+  margin-right: 16px;
+}
+
+/* Alert Section Card Content Style */
+.alert .content {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+/* Alert Section Card Text with link Style */
+.alert span {
+  text-decoration: underline;
+}
+
+/* Alert Section Card Primary Style */
+.alert-primary {
+  background-color: #f2edff;
+  border-color: #dfd4ff;
+  color: #5637b5;
+  border-style: solid;
+}
+
+/* Alert Section Card Primary Icon Style */
+.inbox {
+  color: #5637b5;
+}
+
+/* Alert Section Card Success Style */
+.alert-success {
+  background-color: #e6faed;
+  border-color: #c2f2d4;
+  color: #008f35;
+  border-style: solid;
+}
+
+/* Alert Section Card Success Icon Style */
+.badge-check {
+  color: #008f35;
+}
+
+/* Alert Section Card Warning Style */
+.alert-warning {
+  background-color: #ffffff;
+  border-color: #edb000;
+  color: #edb000;
+  border-style: dashed;
+}
+
+/* Alert Section Card Warning Icon Style */
+.shield-check {
+  color: #edb000;
+}
+
+/* Alert Section Card Danger Style */
+.alert-danger {
+  background-color: #fee9e9;
+  border-color: #fccbcb;
+  color: #ad1c1c;
+  border-style: solid;
+}
+
+/* Alert Section Card Danger Icon Style */
+.lock {
+  color: #ad1c1c;
+}
+
+/* ////////////////////////////   Card Section Style Start Here   ////////////////////////////  */
+
+/* Card Section Style */
+.section.card {
+  padding: 8px 8px;
+}
+
+/* Card Section Image Style */
+.card .card-image {
+  background-image: url("../imgs/card-image-light.png");
+  border-radius: 8px;
+  background-size: cover;
+  height: 224px;
+  background-repeat: no-repeat;
+}
+
+/* Card Section Body Style */
+.card .card-body {
+  padding: 20px 0px 12px;
+}
+
+/* Card Section Title Style */
+.card .card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #3f404d;
+  margin-bottom: 8px;
+}
+
+/* Card Section Text Style */
+.card .card-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #62626d;
+  margin-bottom: 24px;
+}
+
+/* Card Section Stars Style */
+.card .card-body .reviews .stars {
+  display: flex;
+  gap: 2px;
+}
+
+/* Card Section Starts Icons Style */
+.card .card-body .reviews .stars i {
+  font-size: 12px;
+  color: #f0be2e;
+}
+
+/* Card Section Review Style */
+.card .card-body .reviews {
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+/* Card Section Review Number Style */
+.card .card-body .reviews .number {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #86878f;
+}
+
+/* Card Section Price Style */
+.card .card-body .price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #794dff;
+  margin-right: 8px;
+}
+
+/* Card Section Old Price Style */
+.card .card-body .old-price {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #62626d;
+}
+
+/* /////////////// Don't Touch //////////// */
+
+.theme {
+  cursor: pointer;
+}
+
+.theme .theme-icon:hover {
+  border: 2px solid #d1cfd7;
+}
+
+.active-theme .theme-icon {
+  border: 2px solid #5f5d65;
+}
+
+.theme-icon {
+  background-color: #fdfdfe;
+  border-radius: 8px;
+  padding: 12px;
+  border: 2px solid #f3f2f7;
+}
