@@ -8,158 +8,164 @@
 
 /* Font Family for Intire Page */
 body {
-  font-family: "Inter";
+  font-family: var(--pageFontFamily);
 }
 
 /* Page Container */
 .page-container {
-  background-color: #f8f7fb;
-  border-radius: 32px;
-  padding: 40px 28px;
+  background-color: var(--colorBase200);
+  padding: var(--spacing5Xl) var(--spacing2Xl);
+  border-radius: var(--borderRadius2Xl);
 }
 
 /* All Sections Shadow */
 .section.shadow-sm {
-  box-shadow: 0px 2px 4px #d1d1d4 !important;
+  box-shadow: var(--sectionShadowX) var(--sectionShadowY)
+    var(--sectionShadowBlur) var(--colorNeutral200) !important;
 }
 
 /* All Sections Style */
 .section {
-  padding: 24px 24px;
+  padding: var(--spacingXl);
   margin-bottom: 24px;
   border-width: 0px;
-  border-radius: 12px !important;
+  border-radius: var(--sectionBorderRadius) !important;
   border-color: #ececed;
-  background-color: #ffffff !important;
+  background-color: var(--colorBase100) !important;
 }
 
 /* All Sections Title Style */
 .section-title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 24px;
-  color: #3f404d;
+  font-weight: var(--fontWeightBold);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  margin-bottom: var(--spacingXl);
+  color: var(--colorNeutral600);
 }
 
 /* All Avatars Border Radius */
 .avatar {
-  border-radius: 999px;
+  border-radius: var(--avatarLargeBorderRadius);
 }
 
 /* ////////////////////////////   Meeting Section Style Start Here   ////////////////////////////  */
 
 /* Avatar Small Style */
 .avatar-small {
-  height: 24px;
-  margin-right: -4px;
+  height: var(--sizingXs);
+  margin-right: var(--spacing5Xs);
 }
 
 /* Meeting Card Style */
 .meeting-card {
-  padding: 24px;
-  margin-bottom: 12px;
-  border-radius: 8px;
+  padding: var(--spacingXl);
+  margin-bottom: var(--spacingSm);
+  border-radius: var(--meetingCardBorderRadius);
 }
 
 /* Meeting Card Title Style */
 .meeting-card .title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 8px;
+  font-weight: var(--fontWeightMedium);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  margin-bottom: var(--spacingXs);
 }
 
 /* Meeting Card Time Style  */
 .meeting-card .time {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
-  margin-bottom: 12px;
+  font-weight: var(--fontWeightMedium);
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+  margin-bottom: var(--spacingSm);
+}
+
+.meeting-card .avatar {
+  border-width: var(--borderWidthMd);
+  border-style: solid;
 }
 
 /* Meeting Card Primary Style */
 .meeting-card.primary {
-  background-color: #f2edff;
-  border-left: 5px solid #916dff !important;
+  background-color: var(--meetingCardPrimaryBgColor);
+  border-left: var(--borderWidthLg) solid var(--meetingCardPrimaryBorderColor) !important;
 }
 
 /* Meeting Card Primary Title Style */
 .meeting-card.primary .title {
-  color: #6741d9;
+  color: var(--meetingCardPrimaryTitleFontColor);
 }
 
 /* Meeting Card Primary Time Style */
 .meeting-card.primary .time {
-  color: #ab8fff;
+  color: var(--meetingCardPrimaryTimeFontColor);
 }
 
 /* Meeting Card Primary Avatar Style */
 .meeting-card.primary .avatar {
-  border: 2px solid #f2edff;
+  border-color: var(--meetingCardPrimaryAvatarBorderColor);
 }
 
 /* Meeting Card Secondary Style  */
 .meeting-card.secondary {
-  background-color: #e6faed;
-  border-left: 5px solid #2ed46b !important;
+  background-color: var(--meetingCardSecondaryBgColor);
+  border-left: var(--borderWidthLg) solid var(--meetingCardSecondaryBorderColor) !important;
 }
 
 /* Meeting Card Secondary Title Style */
 .meeting-card.secondary .title {
-  color: #00ac40;
+  color: var(--meetingCardSecondaryTitleFontColor);
 }
 
 /* Meeting Card Secondary Title Style */
 .meeting-card.secondary .time {
-  color: #5ede8e;
+  color: var(--meetingCardSecondaryTimeFontColor);
 }
 
 /* Meeting Card Secondary Avatar Style */
 .meeting-card.secondary .avatar {
-  border: 2px solid #e6faed;
+  border-color: var(--meetingCardSecondaryAvatarBorderColor);
 }
 
 /* Meeting Card Tertiary Style  */
 .meeting-card.tertiary {
-  background-color: #fee9e9;
-  border-left: 5px solid #f54e4e !important;
-  margin-bottom: 0px;
+  background-color: var(--meetingCardTertiaryBgColor);
+  border-left: var(--borderWidthLg) solid var(--meetingCardTertiaryBorderColor) !important;
+  margin-bottom: var(--spacingNone);
 }
 
 /* Meeting Card Tertiary Title Style */
 .meeting-card.tertiary .title {
-  color: #f32727;
+  color: var(--meetingCardTertiaryTitleFontColor);
 }
 
 /* Meeting Card Tertiary Time Style */
 .meeting-card.tertiary .time {
-  color: #f77777;
+  color: var(--meetingCardTertiaryTimeFontColor);
 }
 
 /* Meeting Card Tertiary Avatar Style */
 .meeting-card.tertiary .avatar {
-  border: 2px solid #fee9e9;
+  border-color: var(--meetingCardTertiaryAvatarBorderColor);
 }
 
 /* ////////////////////////////   Apps Notifications Section Style Start Here   ////////////////////////////  */
 
 /* App Notification List style */
 .apps-notifications .list {
-  margin-bottom: 24px;
+  margin-bottom: var(--spacingXl);
 }
 
 /* App Notification Image Style */
 .apps-notifications img {
-  margin-right: 12px;
+  margin-right: var(--spacingSm);
 }
 
 /* App Notification Title Style */
 .apps-notifications .title {
-  color: #3f404d;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
+  color: var(--colorNeutral600);
+  font-weight: var(--fontWeightMedium);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
 }
 
 /* Don't Touch */
@@ -187,69 +193,80 @@ body {
 .form-switch .form-check-input {
   width: 38px !important;
   height: 22px !important;
-  border-radius: 2rem;
+  border-radius: var(--borderRadius2Xl);
+
+  /* TODO */
+  /* width: var(--sizingLg) !important; */
+  /* height: var(--sizing2Xs) !important; */
 }
 
 /* App Notification Toggle Unchecked Style */
 .form-switch .form-check-input {
-  background-color: #acadb2;
-  border-color: #acadb2;
+  background-color: var(--toggleUncheckedBgColor);
+  border-color: var(--toggleUncheckedBgColor);
 }
 
 /* App Notification Toggle Unchecked Circle Style */
 .form-switch .form-check-input::before {
   content: "";
   position: absolute;
-  top: 2px;
   left: 2px;
-  width: 16px !important;
-  height: 16px !important;
-  background-color: #fff;
-  border-radius: 50%;
+  width: var(--sizing3Xs) !important;
+  height: var(--sizing3Xs) !important;
+  /* TODO */
+  /* background-color: var(--toggleUncheckedCircleBgColor); */
+  background-color: #ffffff;
+  border-radius: var(--borderRadius2Xl);
   transition: transform 0.3s ease;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* App Notification Toggle Checked Style */
 .form-switch .form-check-input:checked {
-  background-color: #794dff;
-  border-color: #794dff;
+  background-color: var(--colorPrimary600);
+  border-color: var(--colorPrimary600);
 }
 
 /* App Notification Toggle Checked Circle Style */
 .form-switch .form-check-input:checked::before {
   content: "";
   position: absolute;
-  top: 2px;
   left: -6px;
-  width: 16px !important;
-  height: 16px !important;
-  background-color: #fff;
-  border-radius: 50%;
+
+  width: var(--sizing3Xs) !important;
+  height: var(--sizing3Xs) !important;
+  background-color: var(--colorBase100);
+  border-radius: var(--borderRadius2Xl);
   transition: transform 0.3s ease;
-  transform: translateX(1.5rem);
+
+  top: 50%;
+  transform: translate(1.5rem, -50%);
 }
 
 /* Don't Touch */
 .form-check-input:checked:focus::before,
 .form-check-input:checked:active::before {
   position: absolute;
-  top: 3px;
   left: -5px;
+  top: 50%;
+  transform: translate(1.5rem, -50%);
 }
 
 /* Don't Touch */
 .form-check-input:focus::before,
 .form-check-input:active::before {
   position: absolute;
-  top: 3px;
   left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* ////////////////////////////   Header Section Style Start Here   ////////////////////////////  */
 
 /* Avatar Large Style */
 .avatar-large {
-  height: 80px;
+  height: var(--sizing11Xl);
 }
 
 /* Header Section Avatar Margin Bottom */
@@ -288,7 +305,7 @@ body {
 
 /* Navbar Section Style */
 .section.navbar {
-  padding: 16px 24px;
+  padding: var(--spacingMd) var(--spacingXl);
 }
 
 /* Navbar Section Logo Name Style */
@@ -347,9 +364,8 @@ body {
 
 /* Select Section Style */
 .section.select {
-  margin-bottom: 0px;
-  padding: 24px 24px;
-  border: 2px solid #916dff;
+  margin-bottom: var(--spacingNone);
+  border: var(--borderWidthMd) solid var(--colorPrimary500);
 }
 
 /* Select Section Title Style */
@@ -430,48 +446,51 @@ body {
 
 /* Input Field Default Style */
 .form-control {
-  background-color: #ffffff;
-  border: 1px solid #acadb2;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  color: #916dff !important;
+  background-color: var(--colorBase100);
+  border: var(--borderWidthSm) solid var(--inputFieldDefaultBorderColor);
+  border-radius: var(--inputFieldBorderRadius);
+  padding: var(--spacingXs) var(--spacingMd);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightMedium);
+}
+
+/* Input Field Filled Style */
+.form-control:not(:placeholder-shown) {
+  border-color: --var(--inputFieldDefaultBorderColor);
+  color: var(--inputFieldFocusFontColor) !important;
 }
 
 /* Input Field Default Placeholder Style */
 .form-control::placeholder {
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  color: #acadb2 !important;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightMedium);
+  color: var(--inputFieldDefaultFontColor) !important;
 }
 
 /* Input Field Hover Style */
 .form-control:hover {
-  background-color: #ffffff;
-  border-color: #86878f;
+  background-color: var(--colorBase100);
+  border-color: var(--inputFieldHoverBorderColor);
 }
 
 /* Input Field Hover Placeholder Style */
 .form-control:hover::placeholder {
-  border-color: #86878f;
-  color: #86878f !important;
+  color: var(--inputFieldHoverFontColor) !important;
 }
 
 /* Input Field Focus Style */
 .form-control:focus {
-  background-color: #ffffff;
-  border-color: #916dff;
+  background-color: var(--colorBase100);
+  border-color: var(--inputFieldFocusBorderColor);
   outline: none;
   box-shadow: none;
 }
 
 /* Input Field Focus Placeholder Style */
 .form-control:focus::placeholder {
-  border-color: #916dff;
-  color: #916dff !important;
+  color: var(--inputFieldFocusFontColor) !important;
 }
 
 /* ////////////////////////////   Buttons Section Style Start Here   ////////////////////////////  */
@@ -534,25 +553,25 @@ body {
 /* Pagination Section Link Default Style */
 .pagination .page-item .page-link {
   border-radius: 8px;
-  background-color: #cecbdc;
-  color: #3f404d;
+  background-color: var(--colorBase600);
+  color: var(--colorNeutral600);
   padding: 12px 12px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
   font-weight: 500;
   border: none;
 }
 
 /* Pagination Section Link Hover Style */
 .pagination .page-item .page-link:hover {
-  background-color: #b9b6c7;
-  color: #3f404d;
+  background-color: var(--colorBase500);
+  color: var(--colorNeutral600);
 }
 
 /* Pagination Section Link Active Style */
 .pagination .page-item.active .page-link {
-  background-color: #dfd4ff;
-  color: #916dff;
+  background-color: var(--colorPrimary200);
+  color: var(--colorPrimary500); /* Instead of 600*/
 }
 
 /* ////////////////////////////   Color Palette Section Style Start Here   ////////////////////////////  */
