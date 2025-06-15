@@ -578,151 +578,150 @@ body {
 
 /* Palette Section Style */
 .palette .padding-short {
-  margin-bottom: 16px;
+  margin-bottom: var(--spacingMd);
 }
 
 /* Palette Section Item Style */
 .palette .item {
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 400;
-  padding: 16px 12px;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightRegular);
+  padding: var(--spacingMd) var(--spacingSm);
 }
-
 /* Palette Section Item Primary 100 Style */
 .palette .item.primary-100 {
-  background-color: #f2edff;
-  color: #362373;
+  background-color: var(--colorPrimary100);
+  color: var(--colorPrimary1000);
 }
 
 /* Palette Section Item Primary 200 Style */
 .palette .item.primary-200 {
-  background-color: #dfd4ff;
-  color: #362373;
+  background-color: var(--colorPrimary200);
+  color: var(--colorPrimary1000);
 }
 
 /* Palette Section Item Primary 300 Style */
 .palette .item.primary-300 {
-  background-color: #c5b2ff;
-  color: #362373;
+  background-color: var(--colorPrimary300);
+  color: var(--colorPrimary1000);
 }
 
 /* Palette Section Item Primary 400 Style */
 .palette .item.primary-400 {
-  background-color: #ab8fff;
-  color: #362373;
+  background-color: var(--colorPrimary400);
+  color: var(--colorPrimary1000);
 }
 
 /* Palette Section Item Primary 500 Style */
 .palette .item.primary-500 {
-  background-color: #916dff;
-  color: #f2edff;
+  background-color: var(--colorPrimary500);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Primary 600 Style */
 .palette .item.primary-600 {
-  background-color: #794dff;
-  color: #f2edff;
+  background-color: var(--colorPrimary600);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Primary 700 Style */
 .palette .item.primary-700 {
-  background-color: #6741d9;
-  color: #f2edff;
+  background-color: var(--colorPrimary700);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Primary 800 Style */
 .palette .item.primary-800 {
-  background-color: #5637b5;
-  color: #f2edff;
+  background-color: var(--colorPrimary800);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Primary 900 Style */
 .palette .item.primary-900 {
-  background-color: #452c91;
-  color: #f2edff;
+  background-color: var(--colorPrimary900);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Primary 1000 Style */
 .palette .item.primary-1000 {
-  background-color: #362373;
-  color: #f2edff;
+  background-color: var(--colorPrimary1000);
+  color: var(--colorPrimary100);
 }
 
 /* Palette Section Item Secondary 100 Style */
 .palette .item.secondary-100 {
-  background-color: #f1f1f2;
-  color: #353339;
+  background-color: var(--colorSecondary100);
+  color: var(--colorSecondary1000);
 }
 
 /* Palette Section Item Secondary 200 Style */
 .palette .item.secondary-200 {
-  background-color: #dedde0;
-  color: #353339;
+  background-color: var(--colorSecondary200);
+  color: var(--colorSecondary1000);
 }
 
 /* Palette Section Item Secondary 300 Style */
 .palette .item.secondary-300 {
-  background-color: #c4c2c8;
-  color: #353339;
+  background-color: var(--colorSecondary300);
+  color: var(--colorSecondary1000);
 }
 
 /* Palette Section Item Secondary 400 Style */
 .palette .item.secondary-400 {
-  background-color: #a9a6ae;
-  color: #353339;
+  background-color: var(--colorSecondary400);
+  color: var(--colorSecondary1000);
 }
 
 /* Palette Section Item Secondary 500 Style */
 .palette .item.secondary-500 {
-  background-color: #8f8b96;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary500);
+  color: var(--colorSecondary100);
 }
 
 /* Palette Section Item Secondary 600 Style */
 .palette .item.secondary-600 {
-  background-color: #76717f;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary600);
+  color: var(--colorSecondary100);
 }
 
 /* Palette Section Item Secondary 700 Style */
 .palette .item.secondary-700 {
-  background-color: #64606c;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary700);
+  color: var(--colorSecondary100);
 }
 
 /* Palette Section Item Secondary 800 Style */
 .palette .item.secondary-800 {
-  background-color: #54505a;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary800);
+  color: var(--colorSecondary100);
 }
 
 /* Palette Section Item Secondary 900 Style */
 .palette .item.secondary-900 {
-  background-color: #434048;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary900);
+  color: var(--colorSecondary100);
 }
 
 /* Palette Section Item Secondary 1000 Style */
 .palette .item.secondary-1000 {
-  background-color: #353339;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary1000);
+  color: var(--colorSecondary100);
 }
 
 /* ////////////////////////////   Footer Section Style Start Here   ////////////////////////////  */
 
 /* Footer Section Links Default style */
 .footer .link {
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  color: #86878f;
-  padding: 8px 12px;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightMedium);
+  color: var(--colorNeutral400);
+  padding: var(--spacingXs) var(--spacingSm);
 }
 
 /* Footer Section Links Hover style */
 .footer .link:hover {
-  color: #3f404d;
+  color: var(--colorNeutral600);
 }
 
 /* ////////////////////////////   Alerts Section Style Start Here   ////////////////////////////  */
