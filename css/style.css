@@ -548,18 +548,18 @@ body {
 
 /* Pagination Section Style */
 .pagination {
-  gap: 4px;
+  gap: var(--spacing2Xs);
 }
 
 /* Pagination Section Link Default Style */
 .pagination .page-item .page-link {
-  border-radius: 8px;
+  border-radius: var(--paginationBorderRadius);
   background-color: var(--colorBase600);
   color: var(--colorNeutral600);
-  padding: 12px 12px;
+  padding: var(--spacingSm);
   font-size: var(--fontSizeMd);
   line-height: var(--fontLineHeightMd);
-  font-weight: 500;
+  font-weight: var(--fontWeightMedium);
   border: none;
 }
 
