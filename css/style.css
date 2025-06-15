@@ -736,7 +736,7 @@ body {
 
 /* Alert Section Card Icon Style */
 .icon {
-  margin-right: var(--spacingLg);
+  margin-right: var(--spacingMd);
 }
 
 /* Alert Section Card Content Style */
