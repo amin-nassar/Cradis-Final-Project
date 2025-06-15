@@ -728,21 +728,21 @@ body {
 
 /* Alert Section Card Style */
 .alert {
-  padding: 20px 20px;
-  border-radius: 16px;
-  border-width: 2px;
+  padding: var(--spacingLg) var(--spacingLg);
+  border-radius: var(--alertBorderRadius);
+  border-width: var(--borderWidthMd);
 }
 
 /* Alert Section Card Icon Style */
 .icon {
-  margin-right: 16px;
+  margin-right: var(--spacingLg);
 }
 
 /* Alert Section Card Content Style */
 .alert .content {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 600;
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightSemiBold);
 }
 
 /* Alert Section Card Text with link Style */
@@ -752,54 +752,54 @@ body {
 
 /* Alert Section Card Primary Style */
 .alert-primary {
-  background-color: #f2edff;
-  border-color: #dfd4ff;
-  color: #5637b5;
+  background-color: var(--alertPrimaryBgColor);
+  border-color: var(--alertPrimaryBorderColor);
+  color: var(--alertPrimaryFontColor);
   border-style: solid;
 }
 
 /* Alert Section Card Primary Icon Style */
 .inbox {
-  color: #5637b5;
+  color: var(--alertPrimaryIconColor);
 }
 
 /* Alert Section Card Success Style */
 .alert-success {
-  background-color: #e6faed;
-  border-color: #c2f2d4;
-  color: #008f35;
+  background-color: var(--alertSuccessBgColor);
+  border-color: var(--alertSuccessBorderColor);
+  color: var(--alertSuccessFontColor);
   border-style: solid;
 }
 
 /* Alert Section Card Success Icon Style */
 .badge-check {
-  color: #008f35;
+  color: var(--alertSuccessIconColor);
 }
 
 /* Alert Section Card Warning Style */
 .alert-warning {
-  background-color: #ffffff;
-  border-color: #edb000;
-  color: #edb000;
+  background-color: var(--alertWarningBgColor);
+  border-color: var(--alertWarningBorderColor);
+  color: var(--alertWarningFontColor);
   border-style: dashed;
 }
 
 /* Alert Section Card Warning Icon Style */
 .shield-check {
-  color: #edb000;
+  color: var(--alertWarningIconColor);
 }
 
 /* Alert Section Card Danger Style */
 .alert-danger {
-  background-color: #fee9e9;
-  border-color: #fccbcb;
-  color: #ad1c1c;
+  background-color: var(--alertDangerBgColor);
+  border-color: var(--alertDangerBorderColor);
+  color: var(--alertDangerFontColor);
   border-style: solid;
 }
 
 /* Alert Section Card Danger Icon Style */
 .lock {
-  color: #ad1c1c;
+  color: var(--alertDangerIconColor);
 }
 
 /* ////////////////////////////   Card Section Style Start Here   ////////////////////////////  */
