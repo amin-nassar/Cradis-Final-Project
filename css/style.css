@@ -498,50 +498,50 @@ body {
 
 /* Buttons Style */
 .btn {
-  border-radius: 16px;
-  padding: 16px 32px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
+  border-radius: var(--buttonBorderRadius);
+  padding: var(--spacingMd) var(--spacing3Xl);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightMedium);
   border: none;
 }
 
 /* Buttons Primary Default Style */
 .btn-primary {
-  background-color: #916dff;
-  color: #f2edff;
+  background-color: var(--colorPrimary500);
+  color: var(--colorPrimary100);
 }
 
 /* Buttons Primary Hover Style */
 .btn-primary:hover {
-  background-color: #794dff;
-  color: #f2edff;
+  background-color: var(--colorPrimary600);
+  color: var(--colorPrimary100);
 }
 
 /* Buttons Primary Focused Style */
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: #6741d9;
-  color: #f2edff;
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+  background-color: var(--colorPrimary700);
+  color: var(--colorPrimary100);
 }
 
 /* Buttons Secondary Default Style */
 .btn-secondary {
-  background-color: #8f8b96;
-  color: #f1f1f2;
+  background-color: var(--colorSecondary500);
+  color: var(--colorSecondary100);
 }
 
 /* Buttons Secondary Hover Style */
-.btn-secondary:hover,
-.btn-secondary:active {
-  background-color: #76717f;
-  color: #f1f1f2;
+.btn-secondary:hover {
+  background-color: var(--colorSecondary600);
+  color: var(--colorSecondary100);
 }
 
 /* Buttons Secondary Focused Style */
-.btn-secondary:focus {
-  background-color: #64606c;
-  color: #f1f1f2;
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active {
+  background-color: var(--colorSecondary700);
+  color: var(--colorSecondary100);
 }
 
 /* ////////////////////////////   Pagination Section Style Start Here   ////////////////////////////  */
