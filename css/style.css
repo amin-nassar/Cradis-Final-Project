@@ -45,7 +45,7 @@ body {
 
 /* All Avatars Border Radius */
 .avatar {
-  border-radius: var(--avatarLargeBorderRadius);
+  border-radius: var(--borderRadiusFull);
 }
 
 /* ////////////////////////////   Meeting Section Style Start Here   ////////////////////////////  */
@@ -267,38 +267,39 @@ body {
 /* Avatar Large Style */
 .avatar-large {
   height: var(--sizing11Xl);
+  border-radius: var(--avatarLargeBorderRadius);
 }
 
 /* Header Section Avatar Margin Bottom */
 .header .avatar {
-  margin-bottom: 8px;
+  margin-bottom: var(--spacingXs);
 }
 
 /* Header Section Name Style */
 .header .name {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 500;
-  color: #3f404d;
-  margin-bottom: 4px;
+  font-size: var(--fontSizeLg);
+  line-height: var(--fontLineHeightLg);
+  font-weight: var(--fontWeightMedium);
+  color: var(--colorNeutral600);
+  margin-bottom: var(--spacing2Xs);
 }
 
 /* Header Section Role Style */
 .header .role {
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  color: #86878f;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightMedium);
+  color: var(--colorNeutral400);
 }
 
 /* Header Section Title Style  */
 .header .title {
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #3f404d;
-  margin-top: 16px;
-  margin-bottom: 0px;
+  font-size: var(--fontSizeXl);
+  line-height: var(--fontLineHeightXl);
+  font-weight: var(--fontWeightBold);
+  color: var(--colorNeutral600);
+  margin-top: var(--spacingMd);
+  margin-bottom: var(--spacingNone);
 }
 
 /* ////////////////////////////   Navbar Section Style Start Here   ////////////////////////////  */
