@@ -742,7 +742,7 @@ body {
 /* Alert Section Card Content Style */
 .alert .content {
   font-size: var(--fontSizeSm);
-  line-height: var(--fontLineHeightMd);
+  line-height: var(--fontLineHeightSm);
   font-weight: var(--fontWeightSemiBold);
 }
 
