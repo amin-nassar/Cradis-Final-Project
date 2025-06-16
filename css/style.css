@@ -396,7 +396,7 @@ body {
 
 /* Select Section Content Style */
 .select .content {
-  gap: 0px;
+  gap: var(--spacingNone);
   display: flex;
   flex-direction: column;
 }
@@ -805,82 +805,83 @@ body {
 
 /* Card Section Style */
 .section.card {
-  padding: 8px 8px;
+  padding: var(--spacingXs);
 }
 
 /* Card Section Image Style */
 .card .card-image {
-  background-image: url("../imgs/card-image-light.png");
-  border-radius: 8px;
+  background-image: var(--productCardImageName);
+  border-radius: var(--borderRadiusXs);
   background-size: cover;
-  height: 224px;
+  height: var(--spacing12Xl);
   background-repeat: no-repeat;
 }
 
 /* Card Section Body Style */
 .card .card-body {
-  padding: 20px 0px 12px;
+  padding: var(--spacingLg) 0px var(--spacingSm);
 }
 
 /* Card Section Title Style */
 .card .card-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  color: #3f404d;
-  margin-bottom: 8px;
+  font-size: var(--fontSizeLg);
+  font-weight: var(--fontWeightMedium);
+  line-height: var(--fontLineHeightLg);
+  color: var(--colorNeutral600);
+  margin-bottom: var(--spacingXs);
 }
 
 /* Card Section Text Style */
 .card .card-text {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #62626d;
-  margin-bottom: 24px;
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+  font-weight: var(--fontWeightRegular);
+  color: var(--colorNeutral500);
+  margin-bottom: var(--spacingXl);
 }
 
 /* Card Section Stars Style */
 .card .card-body .reviews .stars {
   display: flex;
-  gap: 2px;
+  gap: var(--spacing3Xs);
 }
 
 /* Card Section Starts Icons Style */
 .card .card-body .reviews .stars i {
-  font-size: 12px;
+  font-size: var(--fontSizeSm);
   color: #f0be2e;
 }
 
 /* Card Section Review Style */
 .card .card-body .reviews {
-  gap: 8px;
-  margin-bottom: 24px;
+  gap: var(--spacingXs);
+  margin-bottom: var(--spacingXl);
 }
 
 /* Card Section Review Number Style */
 .card .card-body .reviews .number {
-  font-size: 12px;
-  line-height: 12px;
-  font-weight: 400;
-  color: #86878f;
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+  font-weight: var(--fontWeightRegular);
+
+  color: var(--colorNeutral400);
 }
 
 /* Card Section Price Style */
 .card .card-body .price {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #794dff;
-  margin-right: 8px;
+  font-size: var(--fontSizeXl);
+  font-weight: var(--fontWeightBold);
+  line-height: var(--fontLineHeightXl);
+  color: var(--colorPrimary600);
+  margin-right: var(--spacingXs);
 }
 
 /* Card Section Old Price Style */
 .card .card-body .old-price {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #62626d;
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightRegular);
+  color: var(--colorNeutral500);
 }
 
 /* /////////////// Don't Touch //////////// */
