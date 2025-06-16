@@ -371,27 +371,27 @@ body {
 
 /* Select Section Title Style */
 .select .title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  color: #3f404d;
-  margin-bottom: 12px;
+  font-weight: var(--fontWeightMedium);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  color: var(--colorNeutral600);
+  margin-bottom: var(--spacingSm);
 }
 
 /* Select Section Description style */
 .select .desc {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  color: #86878f;
+  font-weight: var(--fontWeightRegular);
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+  color: var(--colorNeutral400);
 }
 
 /* Select Section Price Style */
 .select .price {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #3f404d;
+  font-weight: var(--fontWeightRegular);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  color: var(--colorNeutral600);
 }
 
 /* Select Section Content Style */
@@ -403,8 +403,8 @@ body {
 
 /* Select Section Radio Buton Style */
 .form-check-input:checked {
-  background-color: #794dff;
-  border-color: #794dff;
+  background-color: var(--colorPrimary600);
+  border-color: var(--colorPrimary600);
 }
 
 /* ////////////////////////////   Tabs Section Style Start Here   ////////////////////////////  */
