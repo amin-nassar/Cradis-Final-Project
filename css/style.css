@@ -519,7 +519,6 @@ body {
 }
 
 /* Buttons Primary Focused Style */
-.btn.btn-primary:focus,
 .btn.btn-primary:active {
   background-color: var(--colorPrimary700);
   color: var(--colorPrimary100);
@@ -538,7 +537,6 @@ body {
 }
 
 /* Buttons Secondary Focused Style */
-.btn.btn-secondary:focus,
 .btn.btn-secondary:active {
   background-color: var(--colorSecondary700);
   color: var(--colorSecondary100);
