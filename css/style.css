@@ -458,7 +458,7 @@ body {
 
 /* Input Field Filled Style */
 .form-control:not(:placeholder-shown) {
-  border-color: --var(--inputFieldDefaultBorderColor);
+  border-color: var(--inputFieldDefaultBorderColor);
   color: var(--inputFieldFocusFontColor) !important;
 }
 
