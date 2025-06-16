@@ -813,7 +813,7 @@ body {
   background-image: var(--productCardImageName);
   border-radius: var(--borderRadiusXs);
   background-size: cover;
-  height: var(--spacing12Xl);
+  height: var(--sizing12Xl);
   background-repeat: no-repeat;
 }
 
