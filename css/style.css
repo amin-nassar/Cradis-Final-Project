@@ -311,47 +311,46 @@ body {
 
 /* Navbar Section Logo Name Style */
 .logo-name {
-  color: #3f404d;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
+  color: var(--colorNeutral600);
+  font-size: var(--fontSizeMd);
+  line-height: var(--fontLineHeightMd);
+  font-weight: var(--fontWeightBold);
 }
 
 /* Navbar Section Logo Icon Style */
 .navbar .logo-icon {
-  background-color: #916dff;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 12px;
-  border-radius: 8px;
-  margin-right: 12px;
+  background-color: var(--navBarLogoBgColor);
+  color: var(--navBarLogoIconColor);
+  font-size: var(--fontSizeLg);
+  padding: var(--spacingSm);
+  border-radius: var(--navBarLogoBorderRadius);
+  margin-right: var(--spacingSm);
 }
 
 /* Navbar Section Link Default Style */
 .nav-item .nav-link {
-  color: #3f404d;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
+  color: var(--colorNeutral600);
+  font-weight: var(--fontWeightRegular);
+  line-height: var(--fontLineHeightMd);
   background-color: transparent;
-  padding: 12px 16px !important;
-  border-radius: 4px;
+  padding: var(--spacingSm) var(--spacingMd) !important;
+  border-radius: var(--navLinkBorderRadius);
 }
 
 /* Navbar Section Link Hover Style */
 .nav-item .nav-link:hover {
-  background-color: #dedde0;
+  background-color: var(--colorBase300);
 }
 
 /* Navbar Sections Links Gap */
 .navbar-nav {
-  gap: 8px;
+  gap: var(--spacingXs);
 }
 
 /* Navbar Section Link Icon Style */
 .nav-item i {
-  font-size: 12px;
-  margin-left: 8px;
+  font-size: var(--fontSizeSm);
+  margin-left: var(--spacingXs);
   position: relative;
   top: -2px;
 }
@@ -411,35 +410,36 @@ body {
 
 /* Tabs Section Style */
 .nav-tabs {
-  background-color: #cecbdc;
-  padding: 4px 4px;
-  border-radius: 8px;
+  background-color: var(--tabsSectionBgColor);
+  padding: var(--spacing2Xs);
+  border-radius: var(--tabsSectionBorderRadius);
   --bs-nav-tabs-border-width: initial;
   border: none;
 }
 
 /* Tab Section Link Default Style */
 .nav-tabs .nav-link {
-  background-color: #cecbdc;
-  color: #3f404d;
-  padding: 8px 12px !important;
-  border-radius: 4px;
+  background-color: var(--tapDefaultBgColor);
+  color: var(--tapDefaultFontColor);
+  padding: var(--spacingXs) var(--spacingSm) !important;
+  border-radius: var(--tapBorderRadius);
   border: none;
 }
 
 /* Tab Section Link Hover Style */
 .nav-tabs .nav-link:hover {
-  background-color: #cecbdc;
-  color: #794dff;
-  border-radius: 4px;
+  background-color: var(--tapHoverBgColor);
+  color: var(--tapHoverFontColor);
+  border-radius: var(--tapBorderRadius);
   border: none;
 }
 
 /* Tab Section Link Active Style */
 .nav-tabs .nav-link.active {
-  background-color: #794dff;
-  color: #f2edff;
-  border-radius: 4px;
+  background-color: var(--tapActiveBgColor);
+  color: var(--tapActiveFontColor);
+  border-radius: var(--tapBorderRadius);
+
   border: none;
 }
 
@@ -552,13 +552,14 @@ body {
 /* Pagination Section Link Default Style */
 .pagination .page-item .page-link {
   border-radius: var(--paginationBorderRadius);
-  background-color: var(--colorBase600);
+  background-color: var(--paginationDefaultBgColor);
   color: var(--colorNeutral600);
   padding: var(--spacingSm);
   font-size: var(--fontSizeMd);
   line-height: var(--fontLineHeightMd);
   font-weight: var(--fontWeightMedium);
   border: none;
+  box-shadow: none;
 }
 
 /* Pagination Section Link Hover Style */
@@ -849,7 +850,7 @@ body {
 /* Card Section Starts Icons Style */
 .card .card-body .reviews .stars i {
   font-size: var(--fontSizeSm);
-  color: #f0be2e;
+  color: var(--colorWarning500);
 }
 
 /* Card Section Review Style */
