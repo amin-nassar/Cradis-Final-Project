@@ -553,7 +553,7 @@ body {
 .pagination .page-item .page-link {
   border-radius: var(--paginationBorderRadius);
   background-color: var(--paginationDefaultBgColor);
-  color: var(--paginationDefaultFontIconColor);
+  color: var(--paginationDefaultFontColor);
   padding: var(--spacingSm);
   font-size: var(--fontSizeMd);
   line-height: var(--fontLineHeightMd);
@@ -564,14 +564,14 @@ body {
 
 /* Pagination Section Link Hover Style */
 .pagination .page-item .page-link:hover {
-  background-color: var(--colorBase500);
+  background-color: var(--colorBase700);
   color: var(--colorNeutral600);
 }
 
 /* Pagination Section Link Active Style */
 .pagination .page-item.active .page-link {
   background-color: var(--paginationActiveBgColor);
-  color: var(--paginationActiveFontIconColor); /* Instead of 600*/
+  color: var(--paginationActiveFontColor); /* Instead of 600*/
 }
 
 /* ////////////////////////////   Color Palette Section Style Start Here   ////////////////////////////  */

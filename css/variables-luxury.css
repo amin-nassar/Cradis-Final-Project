@@ -466,9 +466,9 @@
   --avatarLargeBorderRadius: 16px;
   --paginationBorderRadius: 4px;
   --paginationActiveBgColor: #6f5232;
-  --paginationActiveFontIconColor: #f0e4d7;
+  --paginationActiveFontColor: #f0e4d7;
   --paginationDefaultBgColor: #2a1f16;
-  --paginationDefaultFontIconColor: #a89b8d;
+  --paginationDefaultFontColor: #a89b8d;
   --toggleUncheckedBgColor: #100804;
   --toggleUncheckedCircleBgColor: #2a1f16;
   --alertBorderRadius: 8px;
