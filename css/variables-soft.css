@@ -472,17 +472,17 @@
   --toggleUncheckedBgColor: #464b68;
   --toggleUncheckedCircleBgColor: #fdfdfe;
   --alertBorderRadius: 16px;
-  --alertPrimaryBgColor: #ebf3fe;
   --alertPrimaryIconColor: #2a5caf;
+  --alertPrimaryBgColor: #ebf3fe;
   --alertPrimaryBorderColor: #d0e1fd;
   --alertPrimaryFontColor: #2a5caf;
   --alertSuccessBgColor: #f3fae8;
   --alertSuccessBorderColor: #e1f3c7;
   --alertSuccessIconColor: #5e9110;
   --alertSuccessFontColor: #5e9110;
+  --alertWarningIconColor: #eab306;
   --alertWarningBgColor: #fdfdfe;
   --alertWarningBorderColor: #f2cf62;
-  --alertWarningIconColor: #eab306;
   --alertWarningFontColor: #eab306;
   --alertDangerBgColor: #feecef;
   --alertDangerIconColor: #ad2d43;
@@ -503,7 +503,7 @@
   --navBarLogoBorderRadius: 16px;
   --navBarLogoIconColor: #fdfdfe;
   --navBarLogoBgColor: #5e99f8;
-  --footerLinkDefaultFontColor: #32354a;
+  --footerLinkDefaultFontColor: #8a8ea0;
   --footerLinkHoverFontColor: #464b68;
   --colorPrimary100: #ebf3fe;
   --colorPrimary200: #d0e1fd;
