@@ -173,6 +173,10 @@ body {
   margin-top: 0px;
 }
 
+.form-switch {
+  margin-bottom: 0;
+}
+
 /* Don't Touch */
 .form-switch .form-check-input {
   --bs-form-switch-bg: none;
