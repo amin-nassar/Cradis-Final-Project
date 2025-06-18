@@ -410,9 +410,9 @@ body {
 
 /* Tabs Section Style */
 .nav-tabs {
-  background-color: var(--tabsSectionBgColor);
+  background-color: var(--tabsBgColor);
   padding: var(--spacing2Xs);
-  border-radius: var(--tabsSectionBorderRadius);
+  border-radius: var(--tabsBorderRadius);
   --bs-nav-tabs-border-width: initial;
   border: none;
 }
@@ -436,8 +436,8 @@ body {
 
 /* Tab Section Link Active Style */
 .nav-tabs .nav-link.active {
-  background-color: var(--tapActiveBgColor);
-  color: var(--tapActiveFontColor);
+  background-color: var(--tapSelectedBgColor);
+  color: var(--tapSelectedFontColor);
   border-radius: var(--tapBorderRadius);
 
   border: none;
@@ -553,7 +553,7 @@ body {
 .pagination .page-item .page-link {
   border-radius: var(--paginationBorderRadius);
   background-color: var(--paginationDefaultBgColor);
-  color: var(--colorNeutral600);
+  color: var(--paginationDefaultFontIconColor);
   padding: var(--spacingSm);
   font-size: var(--fontSizeMd);
   line-height: var(--fontLineHeightMd);
@@ -570,8 +570,8 @@ body {
 
 /* Pagination Section Link Active Style */
 .pagination .page-item.active .page-link {
-  background-color: var(--colorPrimary200);
-  color: var(--colorPrimary500); /* Instead of 600*/
+  background-color: var(--paginationActiveBgColor);
+  color: var(--paginationActiveFontIconColor); /* Instead of 600*/
 }
 
 /* ////////////////////////////   Color Palette Section Style Start Here   ////////////////////////////  */
@@ -715,13 +715,13 @@ body {
   font-size: var(--fontSizeMd);
   line-height: var(--fontLineHeightMd);
   font-weight: var(--fontWeightMedium);
-  color: var(--colorNeutral400);
+  color: var(--footerLinkDefaultFontColor);
   padding: var(--spacingXs) var(--spacingSm);
 }
 
 /* Footer Section Links Hover style */
 .footer .link:hover {
-  color: var(--colorNeutral600);
+  color: var(--footerLinkHoverFontColor);
 }
 
 /* ////////////////////////////   Alerts Section Style Start Here   ////////////////////////////  */
